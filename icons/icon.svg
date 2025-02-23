@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="64" cy="64" r="60" fill="#2196f3"/>
+    
+    <!-- Prompt Symbol (>_) -->
+    <text x="64" y="64" 
+          font-family="Monaco, Consolas, monospace" 
+          font-size="48" 
+          fill="white" 
+          text-anchor="middle" 
+          dominant-baseline="middle">
+        >_
+    </text>
+    
+    <!-- Management Dots -->
+    <circle cx="40" cy="90" r="6" fill="white"/>
+    <circle cx="64" cy="90" r="6" fill="white"/>
+    <circle cx="88" cy="90" r="6" fill="white"/>
+</svg>

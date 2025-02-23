@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt Manager</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Prompt Manager</h1>
+            <div class="header-controls">
+                <button id="themeToggle" title="Toggle Theme">🌓</button>
+                <button id="importExport" title="Import/Export">📤</button>
+            </div>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="searchPrompts" placeholder="Search prompts...">
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+            </select>
+        </div>
+
+        <div class="main-content">
+            <div class="prompts-list" id="promptsList">
+                <!-- Prompts will be dynamically inserted here -->
+            </div>
+
+            <button id="addPrompt" class="floating-action-button">+</button>
+        </div>
+    </div>
+
+    <!-- Modal for adding/editing prompts -->
+    <div id="promptModal" class="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle">Add New Prompt</h2>
+            <form id="promptForm">
+                <input type="text" id="promptTitle" placeholder="Title" required>
+                <textarea id="promptContent" placeholder="Prompt content" required></textarea>
+                <input type="text" id="promptCategory" placeholder="Category">
+                <div class="form-buttons">
+                    <button type="button" id="cancelPrompt">Cancel</button>
+                    <button type="submit">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>
