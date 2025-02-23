@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Chrome Extension helps developers manage and organize their prompts. It provides features for:
+This Chrome Extension helps users manage and organize their prompts. It provides features for:
 
 - Creating, editing, and deleting prompts
 - Categorizing prompts with tags
