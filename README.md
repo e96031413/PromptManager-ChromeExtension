@@ -1,5 +1,8 @@
 # Prompt Manager Chrome Extension
 
+![Prompt Manager Chrome Extension](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*8vLgKGmfgDsf6B3JepyyOA.jpeg "Prompt Manager Chrome Extension")
+
+
 ## Overview
 
 This Chrome Extension helps users manage and organize their prompts. It provides features for:
