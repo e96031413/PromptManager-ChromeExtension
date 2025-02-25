@@ -176,7 +176,7 @@ class PromptUI {
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `cursor-prompts-${new Date().toISOString().split('T')[0]}.json`;
+            a.download = `prompts-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
             a.click();
             URL.revokeObjectURL(url);
         } else {
